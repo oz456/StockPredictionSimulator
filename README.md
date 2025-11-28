@@ -14,7 +14,7 @@ make
 ./StockPredictor
 ```
 
-## Working on Mac or Windows?
+## Build (Mac/Windows)
 ```bash
 ###########################################################
 #   MAC / WINDOWS USERS:                                  #
