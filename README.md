@@ -28,7 +28,6 @@ make
 ## Project Structure
 - `src/` : .h and .cpp files (MarketData, CSVReader, IndicatorCalculator, Strategy, EMAStrategy, Simulator)
 - `data/market.csv` : sample market data
-- `README.md` : this file
 
 ## Notes
 - This project uses simple EMA crossover (short=3, long=5) for demo.
