@@ -1,11 +1,11 @@
 # StockPredictor (OOP) - EMA Crossover Simulation
 
 ## Description
-This is a small multi-file C++ project that demonstrates an OOP design for a simple
+This is a small C++ project that demonstrates an OOP design for a simple
 EMA crossover trading strategy. It reads market data from `data/market.csv`
 (timestamp,price), runs a simulated pass, prints buy/sell actions and a rough P&L.
 
-## Build (Linux / macOS)
+## Build (Linux)
 ```bash
 mkdir build
 cd build
@@ -14,10 +14,15 @@ make
 ./StockPredictor
 ```
 
-## Simple compile without CMake (single-line)
+## Working on Mac or Windows?
 ```bash
-g++ src/*.cpp -std=c++17 -pthread -I. -o StockPredictor
-./StockPredictor
+###########################################################
+#   MAC / WINDOWS USERS:                                  #
+#                                                         #
+#        F I G U R E   I T   O U T   Y O U R S E L F      #
+#                                                         #
+#   Linux did not approve this section.                   #
+###########################################################
 ```
 
 ## Project Structure
